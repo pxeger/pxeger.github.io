@@ -1,0 +1,117 @@
+<!doctype html>
+<html><head><meta charset=utf-8><title>k</title><style>
+*{font-family:monospace}body{background:#000;color:#fff}a{color:#8f8}
+table{border-collapse:collapse}th,td{padding:4px;text-align:center}td{border:solid 1px #080;width:128px}
+</style></head><body>
+<h1>k impls (june 2022)</h1>
+<table><tr><th>
+<!--ko--><th><a href="https://github.com/kevinlawler/kona">kona</a>
+<!--kl--><th><a href="https://t3x.org/klong">klong</a>
+<!--k4--><th><a href="https://kx.com/download">kdb+/q</a>
+<!--ku--><th><a href="https://github.com/zholos/kuc">kuc</a>
+<!--ok--><th><a href="https://github.com/johnearnest/ok">ok</a>
+<!--ng--><th><a href="https://codeberg.org/ngn/k">ngn/k</a>
+<!--kt--><th><a href="https://github.com/ktye/i">ktye/i</a>
+<!--k7--><th><a href="https://anaconda.org/shaktidb/shakti/files">shakti(k7)</a>
+<!--k9--><th><a href="https://shakti.com/download/">shakti</a>
+<!--po--><th><a href="https://theplatform.technology">ThePlatform</a>
+<tr><th>dialect
+<!--ko--><td>k3
+<!--kl--><td><a href="https://t3x.org/klong/klong-vs-k.txt.html">k-like</a>
+<!--k4--><td>k4
+<!--ku--><td>k5?
+<!--ok--><td>k6
+<!--ng--><td>k6
+<!--kt--><td>k-like
+<!--k7--><td>k7
+<!--k9--><td>k9
+<!--po--><td>k-like
+<tr><th>impl
+<!--ko--><td>c
+<!--kl--><td>c (pure c99)
+<!--k4--><td>c?
+<!--ku--><td>c
+<!--ok--><td>js
+<!--ng--><td>c
+<!--kt--><td>go
+<!--k7--><td>?
+<!--k9--><td>c
+<!--po--><td>rust
+<tr><th>license
+<!--ko--><td><a href="https://github.com/kevinlawler/kona/blob/master/LICENSE">isc</a>
+<!--kl--><td>public domain
+<!--k4--><td><a href="https://kx.com/download">32bit eula</a>
+          or <a href="https://ondemand.kx.com/">64bit eula (warning: telemetry!)</a>
+<!--ku--><td><a href="https://github.com/zholos/kuc/blob/master/COPYING">gpl3</a>
+<!--ok--><td><a href="https://github.com/JohnEarnest/ok/blob/gh-pages/LICENSE.txt">mit</a>
+<!--ng--><td><a href="https://codeberg.org/ngn/k/raw/branch/master/LICENSE">agpl3</a>
+<!--kt--><td>public domain
+<!--k7--><td><a href="https://shakti.com/license.php">eula</a>
+<!--k9--><td><a href="https://shakti.com/license.php">eula</a>
+<!--po--><td>open source "soon"
+<tr><th>size
+<!--ko--><td>1500k<br>strip:390k
+<!--kl--><td>700k<br>strip:210k
+<!--k4--><td>600k
+<!--ku--><td>1700k<br>strip:440k
+<!--ok--><td>40k(js)
+<!--ng--><td>120k
+<!--kt--><td>~20k
+<!--k7--><td>250k
+<!--k9--><td>?
+<!--po--><td>10M
+<tr><th>try online
+<!--ko--><td><a href="https://tio.run/##y9bNzs9L/P/fUMFIwVjbRMFUwez/fwA">tio</a><sup><a href=#tio title=footnote>*</a></sup>
+<!--kl--><td>-
+<!--k4--><td>-
+<!--ku--><td>-
+<!--ok--><td><a href="https://johnearnest.github.io/ok/ike/ike.html">editor</a>,
+             <a href="https://johnearnest.github.io/ok/index.html">repl</a>,
+             <a href="https://tio.run/##y9bNz/7/31DBSMFY20TBVMHs/38A">tio</a><sup><a href=#tio title=footnote>*</a></sup>
+             <a href="https://ato.pxeger.com/run?1=m70kOz4_e8GCpaUlaboWaBSUBgA">ato</a>
+<!--ng--><td><a href="https://ngn.bitbucket.io/k/#cjrmsQ93L">editor</a>,
+             <a href="https://ngn.bitbucket.io/k#r">repl</a>,
+             <a href="https://tio.run/##y9bNS8/7/99QwUjBWNtEwVTB7P9/AA">tio</a><sup><a href=#tio title=footnote>*</a></sup>
+             <a href="https://ato.pxeger.com/run?1=m700Oz4vPW_BgqWlJWm6FmgUlAYA">ato</a>
+<!--kt--><td><a href="https://ktye.github.io/">repl</a>
+<!--k7--><td><a href="https://kparc.io/kc/">repl</a>
+<!--k9--><td>-
+<!--po--><td><a href="https://theplatform.technology/webrepl.htm">repl</a>
+<tr><th>repl help
+<!--ko--><td><a href="https://tio.run/##y9bNzs9L/P8/5v9/AA">\</a>
+<!--kl--><td>]h
+<!--k4--><td>-
+<!--ku--><td>-
+<!--ok--><td><a href="https://johnearnest.github.io/ok/index.html?run=%5ch">\h</a> (in web repl)
+<!--ng--><td><a href="https://codeberg.org/ngn/k/src/master/repl.k">\h</a>
+<!--kt--><td>-
+<!--k7--><td>\h
+<!--k9--><td>\
+<!--po--><td>-
+<tr><th>docs
+<!--ko--><td><a href="https://github.com/kevinlawler/kona/wiki#verbs">wiki</a>
+<!--kl--><td><a href="https://t3x.org/klong/klong-ref.txt.html">free manual</a>
+          or <a href="https://t3x.org/klong/book.html">commercial book</a>
+<!--k4--><td><a href="https://code.kx.com/q/ref">q ref</a>
+<!--ku--><td>-
+<!--ok--><td><a href="https://github.com/JohnEarnest/ok/blob/gh-pages/docs/Manual.md">manual</a>
+<!--ng--><td>-
+<!--kt--><td>in <a href="https://github.com/ktye/i/blob/eeb65a3e76dfa1ac3ee1709981ffe6866a003540/k.w#L62-L86">src</a>
+<!--k7--><td><a href="https://kparc.github.io/ref">k reference card (unofficial)</a>
+<!--k9--><td><a href="https://estradajke.github.io/k9-simples/">k9 simples (unofficial)</a>
+<!--po--><td><a href="https://theplatform.technology/tutorial.html">tutorial</a>
+<tr><th>remarks
+<!--ko--><td>-
+<!--kl--><td>-
+<!--k4--><td>type \ to switch from q to k
+<!--ku--><td>closures
+<!--ok--><td>graphics, sound, keyboard api
+<!--ng--><td>x86_64 linux&amp;freebsd only
+<!--kt--><td>WASM builds,<br>no atoms
+<!--k7--><td>parallelism, crypto
+<!--k9--><td>-
+<!--po--><td>concurrency, streams, join calculus, DSLs,reagents
+</table>
+<hr>
+<p id=tio><b>*</b> as of june 2022 <a href=https://tio.run>tio.run</a> hasn't been updated for nearly 3 years
+</body></html>
